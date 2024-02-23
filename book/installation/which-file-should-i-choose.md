@@ -1,5 +1,7 @@
 # 第 1 节  我该选择哪个镜像文件？
 
+## 版本名称和镜像类型说明
+
 FreeBSD 主要分为 `RELEASE` `STABLE` `CURRENT`，有大版本号和小版本号。
 
 `CURRENT` 是当前开发的最前沿，是最新也是最不稳定的版本。当开发到一定阶段，当前的 `CURRENT` 版本号就会进入 `STABLE`，同时 `CURRENT` 版本加一。例如，2024/2/1 的 `CURRENT` 版本号为 15，当 15 进入 `STABLE` 时，`CURRENT` 就会变成 16。一般小版本号均为 0。
@@ -37,3 +39,13 @@ FreeBSD 主要分为 `RELEASE` `STABLE` `CURRENT`，有大版本号和小版本�
 简而言之，如果你要用虚拟机安装 FreeBSD，推荐选择 `disc1.iso`。如果想在实体机上利用 U 盘安装 FreeBSD，则应选择 `memstick.img`。如果你想刻录光盘，推荐选择 `dvd1.iso`（因为 `disc1.iso` 比较小浪费了光盘的空间）。如果使用 Ventoy 需要小心，有可能出现不兼容或者硬件识别错误的问题。
 
 选择好自己需要的镜像文件进行下载。如果速度慢的话可以从 [USTC](https://mirrors.ustc.edu.cn/) 等镜像源进行下载。具体做法是把官方仓库网址的 `download.freebsd.org` 替换为 `mirrors.ustc.edu.cn/freebsd`。**注：USTC 等镜像源只有 `release` 源，没有 `snapshot` 源。即只有官方仓库 `https://download.freebsd.org/releases/` 之下的内容。** 或者也可以尝试用迅雷下载。
+
+## 13 与 14 的区别
+
+- 14 将 `root` 用户的 shell 由 `csh` 改为了 `sh`，与一般用户统一。
+- 14 将原有的 sendmail 邮件服务改为了 Dragonfly Mail Agent。
+- 14 将默认的家目录位置由 `/usr/home/` 改为了 `/home`。
+- 14 的网络时间同步服务由 ntpd 提供，而不是 ntpdate。
+- 以及很多一般性升级
+
+总体上来说建议使用 14

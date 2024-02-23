@@ -29,7 +29,8 @@ export default sidebar({
       collapsible: true,
       children: [
         'which-file-should-i-choose',
-        'installation'
+        'installation-13',
+        'installation-14'
       ]
     }
   ],

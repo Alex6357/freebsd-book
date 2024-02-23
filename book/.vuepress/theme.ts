@@ -19,6 +19,7 @@ export default hopeTheme({
   copyright: "全文以 CC BY 4.0 发布",
   displayFooter: true,
   hotReload: true,
+  headerDepth: 4,
   plugins: {
     comment: {
       provider: "Giscus",

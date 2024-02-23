@@ -2,4 +2,3 @@ node_modules/
 book/.vuepress/.temp
 book/.vuepress/.cache
 book/.vuepress/dist
-try/
