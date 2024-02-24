@@ -14,7 +14,7 @@
 
 > 如果 FreeBSD 没有在启动时配置自动启动图形环境，系统将启动到一个命令行登录提示符，如下所示：
 >
-> ```plaintext
+> ```text
 > FreeBSD/amd64 (pc3.example.org) (ttyv0)
 >
 > login:
@@ -36,7 +36,7 @@
 
 如果你在 FreeBSD（后文如果未加说明，所有命令均为在 FreeBSD 14.0-RELEASE 执行）执行 `ls /`（这条命令的含义是列出 `/` 下的所有文件和文件夹，稍后也会解释），你应该会看到一个列表：
 
-```shell-session
+```shellsession
 alex11@freebsd:~ $ ls /
 COPYRIGHT    dev          home         media        proc         sbin         usr
 bin          entropy      lib          mnt          rescue       sys          var
@@ -116,7 +116,7 @@ boot         etc          libexec      net          root         tmp          zr
 
 在各种教程中，经常会提示你某命令要用 `root` 用户执行。`root` 用户是 UNIX-like 系统中自带的，权限极大的用户，大于 Windows 中的 `Administrator` 用户，在某些意义上甚至大于 `System` 用户。他的权限大到可以把一个运行中的系统整个删除，经典的 `rm -rf /` 笑话（**不要尝试这条命令！**~~除非你真的想删掉整个系统~~）。但是几乎所有涉及到系统的命令都要以 `root` 用户执行，所以使用 `root` 用户时要小心谨慎。在基本的 FreeBSD 系统中，你可以用 `su` 命令切换到 `root` 用户：
 
-```shell-session
+```shellsession
 alex11@freebsd:~ $ su - root
 Password:
 root@freebsd:~ #

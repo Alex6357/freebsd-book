@@ -1,13 +1,13 @@
 {
   "devDependencies": {
-    "@vuepress/bundler-vite": "^2.0.0-rc.0",
-    "@vuepress/client": "2.0.0-rc.0",
-    "@vuepress/plugin-search": "^2.0.0-rc.0",
-    "@vuepress/theme-default": "^2.0.0-rc.0",
-    "vue": "^3.4.3",
-    "vuepress": "2.0.0-rc.0",
-    "vuepress-plugin-search-pro": "^2.0.0-rc.11",
-    "vuepress-theme-hope": "2.0.0-rc.11"
+    "@vuepress/bundler-vite": "2.0.0-rc.8",
+    "@vuepress/plugin-search": "2.0.0-rc.15",
+    "@vuepress/plugin-shiki": "2.0.0-rc.17",
+    "@vuepress/theme-default": "2.0.0-rc.17",
+    "vue": "^3.4.19",
+    "vuepress": "2.0.0-rc.8",
+    "vuepress-plugin-search-pro": "2.0.0-rc.26",
+    "vuepress-theme-hope": "2.0.0-rc.26"
   },
   "name": "freebsd-book",
   "description": "Alex11 的 FreeBSD 手册",
@@ -15,10 +15,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "set NODE_OPTIONS=--openssl-legacy-provider && vuepress build book",
-    "dev": "vuepress dev book",
-    "clean-dev": "vuepress dev book --clean-cache",
-    "update-package": "npx vp-update"
+    "build": "set NODE_OPTIONS=--openssl-legacy-provider && vuepress-vite build book",
+    "dev": "vuepress-vite dev book",
+    "clean-dev": "vuepress-vite dev book --clean-cache",
+    "update-package": "npx vp-update",
+    "info": "vuepress info"
   },
   "repository": {
     "type": "git",

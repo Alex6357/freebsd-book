@@ -41,5 +41,6 @@ export default hopeTheme({
       figure: true,
       hint: true,
     },
+    prismjs: false,
   },
 });

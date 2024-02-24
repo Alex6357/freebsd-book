@@ -1,3 +1,4 @@
+import { shikiPlugin } from "@vuepress/plugin-shiki";
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 
@@ -11,5 +12,17 @@ export default defineUserConfig({
       level: [2, 3, 4],
     }
   },
+  plugins: [
+    shikiPlugin({
+      themes: {
+        light: "light-plus",
+        dark: "dark-plus",
+      },
+      langs: [
+        'shellsession',
+        'text',
+      ],
+    }),
+  ],
   theme,
 });
