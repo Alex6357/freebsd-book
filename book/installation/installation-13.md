@@ -213,15 +213,15 @@
 
 如果选择的是无线网卡，则会开始扫描无线网络。
 
-![扫描无限网络（图片来自 FreeBSD Handbook）](./assests/13-scan-wlan.png "扫描无线网络（图片来自 FreeBSD Handbook）")
+![扫描无限网络（图片来自 FreeBSD Handbook）](./assests/13-14-scan-wlan.png "扫描无线网络（图片来自 FreeBSD Handbook）")
 
 之后会列出扫描到的网络。
 
-![扫描到的无线网络（图片来自 FreeBSD Handbook）](./assests/13-choose-ssid.png "扫描到的无线网络（图片来自 FreeBSD Handbook）")
+![扫描到的无线网络（图片来自 FreeBSD Handbook）](./assests/14-choose-ssid.png "扫描到的无线网络（图片来自 FreeBSD Handbook）")
 
 选择你的 WiFi，会让你输入 WiFi 密码。
 
-![输入 WiFi 密码（图片来自 FreeBSD Handbook）](./assests/13-enter-wlan-password.png "输入 WiFi 密码（图片来自 FreeBSD Handbook）")
+![输入 WiFi 密码（图片来自 FreeBSD Handbook）](./assests/13-14-enter-wlan-password.png "输入 WiFi 密码（图片来自 FreeBSD Handbook）")
 
 连接到 WiFi 后，或是选择了有线网卡，会询问是否配置 IPv4。一般选择是。
 
@@ -363,7 +363,7 @@
 
 选择 `Exit` 后，会询问是否要开启一个命令行来进行额外的手动配置，选择 `No`。
 
-![是否手动配置](./assests/13-manual-configuration.png "是否手动配置")
+![是否手动配置](./assests/13-14-manual-configuration.png "是否手动配置")
 
 最后询问是重启系统还是进入 LiveCD。选择 `Reboot` 即可重启进新安装的 FreeBSD。
 

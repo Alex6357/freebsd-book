@@ -219,7 +219,7 @@
 
 之后会列出扫描到的网络。
 
-![扫描到的无线网络（图片来自 FreeBSD Handbook）](./assests/13-14-choose-ssid.png "扫描到的无线网络（图片来自 FreeBSD Handbook）")
+![扫描到的无线网络（图片来自 FreeBSD Handbook）](./assests/14-choose-ssid.png "扫描到的无线网络（图片来自 FreeBSD Handbook）")
 
 选择你的 WiFi，会让你输入 WiFi 密码。
 
@@ -348,7 +348,7 @@
 
 安装过程的配置到此结束，在最终配置界面中可以重新进行部分配置。
 
-![最终配置](./assests/14-final-configuration.png "最终配置")
+![最终配置](./assests/13-14-final-configuration.png "最终配置")
 
 | 选项 | 解释 |
 | --- | --- |
