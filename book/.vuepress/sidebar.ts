@@ -30,7 +30,8 @@ export default sidebar({
       children: [
         'which-file-should-i-choose',
         'installation-13',
-        'installation-14'
+        'installation-14',
+        'install-as-virtualmachine'
       ]
     }
   ],
