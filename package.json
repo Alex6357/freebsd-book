@@ -15,7 +15,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "set NODE_OPTIONS=--openssl-legacy-provider && vuepress-vite build book",
+    "winbuild": "set NODE_OPTIONS=--openssl-legacy-provider && vuepress-vite build book",
+    "unixbuild": "export NODE_OPTIONS=--openssl-legacy-provider && vuepress-vite build book",
     "dev": "vuepress-vite dev book",
     "clean-dev": "vuepress-vite dev book --clean-cache",
     "update-package": "npx vp-update",
