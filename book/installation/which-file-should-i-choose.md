@@ -44,7 +44,7 @@ FreeBSD 主要分为 `RELEASE` `STABLE` `CURRENT`，有大版本号和小版本�
 
 - 14 将 `root` 用户的 shell 由 `csh` 改为了 `sh`，与一般用户统一。
 - 14 将原有的 sendmail 邮件服务改为了 Dragonfly Mail Agent。
-- 14 将默认的家目录位置由 `/usr/home/` 改为了 `/home`。
+- 14 将默认的家目录位置由 `/usr/home/` 改为了 `/home/`，并取消了 `/home/` -> `/usr/home/` 的链接。
 - 14 的网络时间同步服务由 ntpd 提供，而不是 ntpdate。
 - 以及很多一般性升级
 
