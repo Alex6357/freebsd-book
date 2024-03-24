@@ -20,7 +20,8 @@ export default sidebar({
       collapsible: true,
       children: [
         'what-is-freebsd',
-        'freebsd-basic'
+        'freebsd-basic',
+        'handbook-and-man'
       ]
     },
     {
