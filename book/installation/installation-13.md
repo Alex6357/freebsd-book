@@ -189,7 +189,7 @@
 
 ![UFS 默认分区](./assests/13-ufs-default-partition.png "UFS 默认分区")
 
-`Finish` 确认当前布局。`Auto` 重新进行默认分区。其他选项可以调整当前分区。这里直接选择 `Finish`。会弹出确认窗口。选 `Commit` 确认。】
+`Finish` 确认当前布局。`Auto` 重新进行默认分区。其他选项可以调整当前分区。这里直接选择 `Finish`。会弹出确认窗口。选 `Commit` 确认。
 
 ![UFS 确认分区](./assests/13-ufs-confirm-partition.png "UFS 确认分区")
 
