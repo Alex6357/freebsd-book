@@ -2,7 +2,7 @@
 
 ## 什么是 Handbook
 
-Handbook 指 FreeBSD 官方的手册——[FreeBSD Handbook](https://docs.freebsd.org/en/books/handbook/)。Handbook 介绍了 FreeBSD 的使用、配置等等内容，涵盖了入门到高级各个阶段。但 Handbook 的部分内容略显过时，某些内容也不那么通俗易懂，所以社区才编写了 [FreeBSD 从入门到跑路](https://book.bsdcn.org)等文档，包括本书。官方的 Handbook 也有官方中文版，但过于陈旧，不建议阅读。也因此社区进行了[FreeBSD 手册翻译项目](https://handbook.bsdcn.org)。如果你能读懂英文，更推荐直接去阅读官方英文版。
+Handbook 指 FreeBSD 官方的手册——[FreeBSD Handbook](https://docs.freebsd.org/en/books/handbook/)。Handbook 介绍了 FreeBSD 的使用、配置等等内容，涵盖了入门到高级各个阶段。但 Handbook 的部分内容略显过时，某些内容也不那么通俗易懂，所以社区才编写了 [FreeBSD 从入门到跑路](https://book.bsdcn.org)等文档，包括本书。官方的 Handbook 也有官方中文版，但过于陈旧，不建议阅读。也因此社区进行了 [FreeBSD 手册翻译项目](https://handbook.bsdcn.org)。如果你能读懂英文，更推荐直接去阅读官方英文版。
 
 ## 什么是 man
 
