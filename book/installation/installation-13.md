@@ -182,7 +182,7 @@
 一般我们直接选择 GPT。就算是 legacy 也可以启动。
 
 ::: warning 注意
-如果你想让 UFS 文件系统的 FreeBSD 既可以 legacy 启动，也可以 UEFI 启动，则需要特殊的配置。正常安装只支持一种，即如果你以 legacy 启动安装盘，则支持 legacy 启动，如果以 UEFI 启动安装盘，则支持 UEFI 启动。
+如果你想让 UFS 文件系统的 FreeBSD 既可以 legacy 启动，也可以 UEFI 启动，则需要特殊的配置。正常安装只支持一种，即如果你以 legacy 启动安装盘，则仅支持 legacy 启动，如果以 UEFI 启动安装盘，则仅支持 UEFI 启动。
 :::
 
 之后会来到分区界面，并显示空余空间的默认分区方式。
