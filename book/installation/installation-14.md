@@ -127,9 +127,9 @@
 | `Mirror Swap?` | 是否镜像 swap |
 | `Encrypt Swap?` | 是否加密 swap |
 
-一般安装的时候我们保持默认设置即可，或者如果你的内存不够而硬盘充足则可以稍微扩大交换分区。不过我一般会将交换分区大小设为 0，之后[用一个 ZFS 卷作为交换分区](zfs-swap.md)。
+一般安装的时候我们保持默认设置即可，或者如果你的内存不够而硬盘充足则可以稍微扩大交换分区（交换分区类似 Windows 的虚拟内存，可以在物理内存不够时作为补充）。不过我一般会将交换分区大小设为 0，之后[用一个 ZFS 卷作为交换分区](zfs-swap.md)
 
-选择 `Pool Type/Disks`，或者如果你没有选择硬盘直接选择了 `Install`，就会进入硬盘选择。
+选择 `Pool Type/Disks`，或者如果你没有选择过这个选项而直接选择了 `Install`，都会进入硬盘选择。
 
 ![ZFS 池与硬盘选择](./assests/13-14-choose-zfs-pool-and-disk.png "ZFS 池与硬盘选择")
 
@@ -168,7 +168,7 @@
 
 ![UFS 单硬盘](./assests/14-ufs-single-disk.png "UFS 单硬盘")
 
-选择 `Partition` 可以手动调整分区。会询问使用什么分区表。
+选择 `Partition` 可以手动调整分区，选择 `Entire Disk` 会直接使用整个硬盘。两个选项都会询问使用什么分区表。
 
 ![UFS 选择分区表](./assests/14-ufs-choose-partition-scheme.png "UFS 选择分区表")
 
@@ -182,14 +182,14 @@
 一般我们直接选择 GPT。就算是 legacy 也可以启动。
 
 ::: warning 注意
-如果你想让 UFS 文件系统的 FreeBSD 既可以 legacy 启动，也可以 UEFI 启动，则需要特殊的配置。正常安装只支持一种，即如果你以 legacy 启动安装盘，则支持 legacy 启动，如果以 UEFI 启动安装盘，则支持 UEFI 启动。
++如果你想让 UFS 文件系统的 FreeBSD 既可以 legacy 启动，也可以 UEFI 启动，则需要特殊的配置。正常安装只支持一种，即如果你以 legacy 启动安装盘，则仅支持 legacy 启动，如果以 UEFI 启动安装盘，则仅支持 UEFI 启动。
 :::
 
 之后会来到分区界面，并显示空余空间的默认分区方式。
 
 ![UFS 默认分区](./assests/14-ufs-default-partition.png "UFS 默认分区")
 
-`Finish` 确认当前布局。`Auto` 重新进行默认分区。其他选项可以调整当前分区。这里直接选择 `Finish`。会弹出确认窗口。选 `Commit` 确认。】
+`Finish` 确认当前布局。`Auto` 重新进行默认分区。其他选项可以调整当前分区。这里直接选择 `Finish`。会弹出确认窗口。选 `Commit` 确认。如果你之前选择了 `Entire Disk`，则会直接弹出这个窗口。
 
 ![UFS 确认分区](./assests/14-ufs-confirm-partition.png "UFS 确认分区")
 
