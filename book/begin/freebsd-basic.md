@@ -136,7 +136,7 @@ root@freebsd:~ #
 
 ### `cp` 和 `mv`
 
-`cp` 即 “Copy”，复制文件。`mv` 即 “Move”，移动（剪切）文件。用法为 `cp/mv source target`。使用 `cp -R dir` 可以递归复制整个目录。有意思的是文件重命名也是用 `mv` 命令实现的，即把文件剪切掉再用另外一个名字粘贴回来，例如 `mv file file1`。
+`cp` 即 “Copy”，复制文件。`mv` 即 “Move”，移动（剪切）文件。用法为 `cp/mv source target`，`source` 是你想复制或移动的文件名或目录名，`target` 是你想复制或移动到的目标位置。使用 `cp -R dir` 可以递归复制整个目录。有意思的是文件重命名也是用 `mv` 命令实现的，即把文件剪切掉再用另外一个名字粘贴回来，例如 `mv file file1`。
 
 ### `rm` 和 `rmdir`
 
