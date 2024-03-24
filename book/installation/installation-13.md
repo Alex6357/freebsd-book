@@ -168,7 +168,7 @@
 
 ![UFS 单硬盘](./assests/13-ufs-single-disk.png "UFS 单硬盘")
 
-选择 `Partition` 可以手动调整分区。会询问使用什么分区表。
+选择 `Partition` 可以手动调整分区，选择 `Entire Disk` 会直接使用整个硬盘。两个选项都会询问使用什么分区表。
 
 ![UFS 选择分区表](./assests/13-ufs-choose-partition-scheme.png "UFS 选择分区表")
 
@@ -189,7 +189,7 @@
 
 ![UFS 默认分区](./assests/13-ufs-default-partition.png "UFS 默认分区")
 
-`Finish` 确认当前布局。`Auto` 重新进行默认分区。其他选项可以调整当前分区。这里直接选择 `Finish`。会弹出确认窗口。选 `Commit` 确认。
+`Finish` 确认当前布局。`Auto` 重新进行默认分区。其他选项可以调整当前分区。这里直接选择 `Finish`。会弹出确认窗口。选 `Commit` 确认。如果你之前选择了 `Entire Disk`，则会直接弹出这个窗口。
 
 ![UFS 确认分区](./assests/13-ufs-confirm-partition.png "UFS 确认分区")
 
