@@ -233,7 +233,7 @@ Proceed with deinstalling packages? [y/N]: y
 如果你之前没有安装某个软件包，在自动移除时又希望把他标记成主动安装的，可以执行 `pkg set -A 0 packagename`，其中 “packagename” 为软件包名。例如 `pkg set -A 0 gettext-runtime`，把`gettext-runtime` 标记为主动安装。如果想标记回自动，可以用 `pkg set -A 1 packagename`。
 
 ::: caution 警告：给 Linux 使用者
-重新执行一遍 `pkg install` 并不能把某个包设置为主动安装。这与 `apt` 等包管理器不同。
+重新执行一遍 `pkg install` 并不能把某个已安装的包设置为主动安装。这与 `apt` 等包管理器不同。
 :::
 
 ## 更多信息
