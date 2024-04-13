@@ -80,14 +80,14 @@
 | `kernel-dbg` | 启用调试符号的内核和模块 |
 | `lib32-dbg` | 启用调试符号的 32 位兼容库 |
 | `lib32` | 在 64 位系统运行 32 位程序的兼容库 |
-| `ports` | FreeBSD 的 ports 树。见 [FreeBSD ports](freebsd-ports.md) |
+| `ports` | FreeBSD 的 ports 树。见 [FreeBSD ports](404) |
 | `src` | FreeBSD 的源代码 |
 | `tests` | FreeBSD 测试套件 |
 
 一般建议是全不选或只选 `src` 。这些组件都可以后天安装或获取。
 
 ::: warning 注意
-`disc1` 中并不包含 `base-dbg` 和 `lib32-dbg` 两个组件。如果你选择了这两个组件，则会部分进行网络安装。如果你一定要安装这两个组件，请参照[从网络安装 FreeBSD](net-install.md) 的内容或使用 `dvd1`。
+`disc1` 中并不包含 `base-dbg` 和 `lib32-dbg` 两个组件。如果你选择了这两个组件，则会部分进行网络安装。如果你一定要安装这两个组件，请参照[从网络安装 FreeBSD](404) 的内容或使用 `dvd1`。
 :::
 
 ### 进行分区
@@ -103,9 +103,9 @@
 | `Manual` | 用菜单自定义分区 |
 | `Shell` | 打开一个命令行用于手动分区 |
 
-4G 以上内存建议使用 ZFS，4G 以下内存可以考虑使用 UFS，或者手动对 ZFS 进行优化。见 [ZFS 调优](zfs-tuning-guide.md)。
+4G 以上内存建议使用 ZFS，4G 以下内存可以考虑使用 UFS，或者手动对 ZFS 进行优化。见 [ZFS 调优](404)。
 
-无论 ZFS 或 UFS 都将占用整块硬盘。如果想用手动分区可以参考[双系统安装 FreeBSD](freebsd-with-other-systems.md)。
+无论 ZFS 或 UFS 都将占用整块硬盘。如果想用手动分区可以参考[双系统安装 FreeBSD](404)。
 
 #### 使用 ZFS
 
@@ -127,7 +127,7 @@
 | `Mirror Swap?` | 是否镜像 swap |
 | `Encrypt Swap?` | 是否加密 swap |
 
-一般安装的时候我们保持默认设置即可，或者如果你的内存不够而硬盘充足则可以稍微扩大交换分区（交换分区类似 Windows 的虚拟内存，可以在物理内存不够时作为补充）。不过我一般会将交换分区大小设为 0，之后[用一个 ZFS 卷作为交换分区](zfs-swap.md)
+一般安装的时候我们保持默认设置即可，或者如果你的内存不够而硬盘充足则可以稍微扩大交换分区（交换分区类似 Windows 的虚拟内存，可以在物理内存不够时作为补充）。不过我一般会将交换分区大小设为 0，之后[用一个 ZFS 卷作为交换分区](404)
 
 选择 `Pool Type/Disks`，或者如果你没有选择过这个选项而直接选择了 `Install`，都会进入硬盘选择。
 
