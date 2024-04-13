@@ -34,6 +34,14 @@ export default sidebar({
         'installation-14',
         'install-as-virtualmachine'
       ]
-    }
+    },
+    {
+      text: '第三章  pkg 与 ports',
+      prefix: "/pkg-and-ports/",
+      collapsible: true,
+      children: [
+        'pkg',
+      ]
+    },
   ],
 });
