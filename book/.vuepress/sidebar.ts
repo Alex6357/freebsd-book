@@ -25,7 +25,7 @@ export default sidebar({
       ]
     },
     {
-      text: '第二章 安装 FreeBSD',
+      text: '第二章  安装 FreeBSD',
       prefix: "/installation/",
       collapsible: true,
       children: [
