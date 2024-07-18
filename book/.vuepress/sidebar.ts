@@ -40,7 +40,8 @@ export default sidebar({
       prefix: "/pkg-and-ports/",
       collapsible: true,
       children: [
-        'pkg',
+        'use-mirror',
+        'pkg'
       ]
     },
   ],
