@@ -16,8 +16,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "winbuild": "set NODE_OPTIONS=--openssl-legacy-provider && vuepress-vite build book",
-    "unixbuild": "vuepress-vite build book",
+    "build": "vuepress-vite build book",
     "dev": "vuepress-vite dev book",
     "clean-dev": "vuepress-vite dev book --clean-cache",
     "update-package": "pnpm dlx vp-update",
