@@ -38,9 +38,17 @@ export default hopeTheme({
       global: true
     },
     mdEnhance: {
-      figure: true,
-      hint: true,
     },
     prismjs: false,
+    shiki: {
+      themes: {
+        light: "light-plus",
+        dark: "dark-plus",
+      },
+      langs: [
+        'shellsession',
+        'text',
+      ],
+    }
   },
 });

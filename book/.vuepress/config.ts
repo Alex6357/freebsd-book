@@ -14,16 +14,6 @@ export default defineUserConfig({
     },
   },
   plugins: [
-    shikiPlugin({
-      themes: {
-        light: "light-plus",
-        dark: "dark-plus",
-      },
-      langs: [
-        'shellsession',
-        'text',
-      ],
-    }),
   ],
   theme,
   bundler: viteBundler({
