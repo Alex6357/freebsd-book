@@ -17,7 +17,7 @@
     "unixbuild": "vuepress-vite build book",
     "dev": "vuepress-vite dev book",
     "clean-dev": "vuepress-vite dev book --clean-cache",
-    "update-package": "npx vp-update",
+    "update-package": "pnpm dlx vp-update",
     "info": "vuepress info"
   },
   "repository": {
