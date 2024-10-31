@@ -1,11 +1,11 @@
 {
   "devDependencies": {
-    "@vuepress/bundler-vite": "2.0.0-rc.8",
-    "@vuepress/plugin-shiki": "2.0.0-rc.17",
-    "vue": "^3.4.19",
-    "vuepress": "2.0.0-rc.8",
-    "vuepress-plugin-search-pro": "2.0.0-rc.26",
-    "vuepress-theme-hope": "2.0.0-rc.26"
+    "@vuepress/bundler-vite": "2.0.0-rc.18",
+    "@vuepress/plugin-shiki": "2.0.0-rc.57",
+    "vue": "^3.5.12",
+    "vuepress": "2.0.0-rc.18",
+    "vuepress-plugin-search-pro": "2.0.0-rc.59",
+    "vuepress-theme-hope": "2.0.0-rc.59"
   },
   "name": "freebsd-book",
   "description": "Alex11 的 FreeBSD 手册",
